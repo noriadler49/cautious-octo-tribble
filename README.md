@@ -3,8 +3,6 @@ Repository lưu trữ các bài thực hành môn SOFT4003 - Kiểm Thử Phần
 
 ## Danh sách bài tập
 
----
-
 ### Tuần 1: Can't Unsee Challenge
 - **File:** [`src/images/cantunsee.png`](src/images/cantunsee.png)
 - **Mô tả:** Kết quả thực hiện bài kiểm tra Can't Unsee

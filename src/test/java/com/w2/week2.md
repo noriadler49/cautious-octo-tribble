@@ -7,9 +7,9 @@
 #### Cấu trúc thư mục
 ```
 src/
-├── main/java/com/w1/
+├── main/java/com/w2/
 │   └── StudentAnalyzer.java      # Logic chính
-└── test/java/com/w1/
+└── test/java/com/w2/
     └── StudentAnalyzerTest.java  # Unit tests
 pom.xml                            # Maven configuration
 ```
@@ -46,11 +46,6 @@ BUILD SUCCESS
 - Calculation: `(9.0 + 8.5 + 7.0) / 3 = 8.166...`
 - Expected: `8.17` (±0.01)
 
-**Test 3: Empty List**
-- Input: `[]`
-- Expected count: `0`
-- Expected average: `0.0`
-
 #### Kết quả thực hiện
 - 2/2 test cases passed
 - Logic xử lý điểm hợp lệ đúng
@@ -65,8 +60,3 @@ BUILD SUCCESS
     <scope>test</scope>
 </dependency>
 ```
-
----
-
-## Ghi chú
-- Unit tests sử dụng JUnit 5 và Maven
