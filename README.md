@@ -3,6 +3,8 @@ Repository lưu trữ các bài thực hành môn SOFT4003 - Kiểm Thử Phần
 
 ## Danh sách bài tập
 
+---
+
 ### Tuần 1: Can't Unsee Challenge
 - **File:** [`src/images/cantunsee.png`](src/images/cantunsee.png)
 - **Mô tả:** Kết quả thực hiện bài kiểm tra Can't Unsee
@@ -17,7 +19,7 @@ Repository lưu trữ các bài thực hành môn SOFT4003 - Kiểm Thử Phần
 - JDK 17 trở lên
 - Maven 3.6+
 
-#### Mô tả bài toán
+**Mô tả bài toán:**
 Xây dựng lớp `StudentAnalyzer` với 2 phương thức chính:
 
 1. **`countExcellentStudents(List<Double> scores)`**
@@ -30,7 +32,7 @@ Xây dựng lớp `StudentAnalyzer` với 2 phương thức chính:
    - Bỏ qua điểm không hợp lệ
    - Trả về 0.0 nếu không có điểm hợp lệ
 
-**Chi tiết:** Xem [week2.md](src/test/java/com/w1/week2.md)
+**Chi tiết:** Xem [week2.md](src/test/java/com/w2/week2.md)
 
 ---
 
