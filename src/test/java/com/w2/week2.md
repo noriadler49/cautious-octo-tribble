@@ -14,7 +14,7 @@ src/
 pom.xml                            # Maven configuration
 ```
 
-#### Cách chạy chương 
+#### Cách chạy chương trình
 
 **Compile project:**
 ```bash
@@ -49,7 +49,7 @@ BUILD SUCCESS
 #### Kết quả thực hiện
 - 2/2 test cases passed
 - Logic xử lý điểm hợp lệ đúng
-- Xử lý edge cases (empty list, invalid scores)
+- Xử lý edge cases (invalid scores)
 
 #### Dependencies
 ```xml
