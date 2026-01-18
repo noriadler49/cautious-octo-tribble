@@ -1,6 +1,9 @@
-package com.w1;
+package com.w2;
 
 import org.junit.jupiter.api.Test;
+
+import com.w2.StudentAnalyzer;
+
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.Arrays;
 import java.util.Collections;

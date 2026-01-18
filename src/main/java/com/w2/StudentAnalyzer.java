@@ -1,4 +1,4 @@
-package com.w1;
+package com.w2;
 
 import java.util.List;
 
