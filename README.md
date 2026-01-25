@@ -30,8 +30,17 @@ Xây dựng lớp `StudentAnalyzer` với 2 phương thức chính:
    - Bỏ qua điểm không hợp lệ
    - Trả về 0.0 nếu không có điểm hợp lệ
 
-**Chi tiết:** Xem [week2.md](src/test/java/com/w2/week2.md)
+**Chi tiết:** Xem [week2.md](src\md\week2.md)
 
+### Tuần 3: Cypress E2E Testing – SauceDemo
+**Đề bài:** Thực hành kiểm thử End-to-End (E2E) cho ứng dụng web bằng **Cypress**, thông qua website demo https://www.saucedemo.com.
+
+**Nội dung chính:**
+- Kiểm thử chức năng đăng nhập (thành công & thất bại)
+- Kiểm thử chức năng thêm sản phẩm vào giỏ hàng
+- Kiểm thử chức năng sắp xếp sản phẩm theo 
+
+**Chi tiết:** Xem [week3.md](src/md/week3.md)
 ---
 
 ## Ghi chú
