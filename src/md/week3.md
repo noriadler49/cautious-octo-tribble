@@ -31,8 +31,6 @@ cypress.config.js
 - Trình duyệt Chrome
 - Website test: https://www.saucedemo.com
 
----
-
 ## 3. Các kịch bản kiểm thử đã thực hiện
 
 ### Kịch bản 1: Kiểm tra đăng nhập thành công

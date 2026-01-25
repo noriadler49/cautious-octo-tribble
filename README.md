@@ -32,6 +32,8 @@ Xây dựng lớp `StudentAnalyzer` với 2 phương thức chính:
 
 **Chi tiết:** Xem [week2.md](src\md\week2.md)
 
+---
+
 ### Tuần 3: Cypress E2E Testing – SauceDemo
 **Đề bài:** Thực hành kiểm thử End-to-End (E2E) cho ứng dụng web bằng **Cypress**, thông qua website demo https://www.saucedemo.com.
 
@@ -41,6 +43,7 @@ Xây dựng lớp `StudentAnalyzer` với 2 phương thức chính:
 - Kiểm thử chức năng sắp xếp sản phẩm theo 
 
 **Chi tiết:** Xem [week3.md](src/md/week3.md)
+
 ---
 
 ## Ghi chú
