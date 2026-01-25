@@ -133,5 +133,40 @@ Xác minh người dùng có thể thêm sản phẩm vào giỏ hàng sau khi �
 
 ---
 
+### Kịch bản 5: Kiểm tra chức năng chuyển đến trang thanh toán (Checkout)
+
+**Mục tiêu:**  
+Xác minh người dùng có thể thực hiện quy trình thanh toán cơ bản và được chuyển sang trang xác nhận thanh toán sau khi nhập đầy đủ thông tin.
+
+**Dữ liệu kiểm thử:**
+- Username: `standard_user`
+- Password: `secret_sauce`
+- First Name: `John`
+- Last Name: `Doe`
+- Zip Code: `12345`
+
+**Điều kiện tiên quyết:**  
+- Người dùng đã đăng nhập thành công
+- Có ít nhất một sản phẩm trong giỏ hàng
+
+**Các bước thực hiện:**
+1. Đăng nhập vào hệ thống với tài khoản hợp lệ
+2. Thêm một sản phẩm vào giỏ hàng
+3. Nhấn vào biểu tượng **Cart**
+4. Nhấn nút **Checkout**
+5. Nhập thông tin thanh toán:
+   - First Name: John  
+   - Last Name: Doe  
+   - Zip Code: 12345  
+6. Nhấn nút **Continue**
+
+**Kết quả mong đợi:**
+- Người dùng được chuyển sang trang xác nhận thanh toán
+- URL chứa `/checkout-step-two.html`
+
+**File kiểm thử:**  
+[payment_spec.cy.js](cypress-exercise/cypress/e2e/payment_spec.cy.js)
+
+---
 ## Ghi chú: 
 Phần ảnh lưu trữ tại: src\images
