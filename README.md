@@ -46,6 +46,39 @@ Xây dựng lớp `StudentAnalyzer` với 2 phương thức chính:
 
 ---
 
+### Tuần 4: Kiểm thử Hiệu năng với JMeter
+**Đề bài:** Thực hành kiểm thử hiệu năng (Performance Testing) bằng **Apache JMeter** trên một trang web tự chọn.
+
+**Nội dung chính:**
+- Thiết kế 3 kịch bản kiểm thử (Thread Group) với các tham số khác nhau
+- Thu thập và phân tích các chỉ số: Response Time, Throughput, Error Rate
+- Đánh giá khả năng chịu tải của hệ thống
+
+**Kịch bản kiểm thử:**
+| Kịch bản | Threads | Cấu hình | Mục đích |
+|---|---|---|---|
+| Thread Group 1 | 10 | Loop: 5 | Kiểm thử cơ bản |
+| Thread Group 2 | 50 | Ramp-up: 30s | Kiểm thử tải nặng |
+| Thread Group 3 | 20 | Duration: 60s | Kiểm thử tùy chỉnh |
+
+**Cấu trúc thư mục:**
+```
+jmeter/
+├── test-plan.jmx
+├── readme.md
+├── results/
+│   ├── results_tg1.csv
+│   ├── results_tg2.csv
+│   └── results_tg3.csv
+└── screenshots/
+    ├── tg1.png
+    ├── tg2.png
+    └── tg3.png
+```
+
+**Chi tiết:** Xem [week4.md](src/md/week4.md)
+
+---
 ## Ghi chú
 - Mỗi tuần sẽ có bài tập riêng với file markdown chi tiết
 - Unit tests sử dụng JUnit 5
